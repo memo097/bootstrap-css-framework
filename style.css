@@ -1,0 +1,60 @@
+/* Accueil */
+.midh1 {
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 5px;
+}
+.bgtitre {
+    background-image: url(/img/imgaccueil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+}
+.soustitre {
+    text-align: center;
+}
+.container h5 {
+    text-align: center;
+}
+.plorem {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+.imgtop {
+    height: 200px;
+}
+/* Carte */
+.midsoustitre {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.badge-prix {
+    float: right;
+}
+.rowmargin {
+    margin-top: 20px;
+}
+/* Restaurants */
+.map-container-5{
+    overflow:hidden;
+    padding-bottom:100%;
+    position:relative;
+    height:0;
+}
+.map-container-5 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.resto-select {
+    margin-top: 32px;
+}
